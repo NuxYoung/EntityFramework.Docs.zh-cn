@@ -60,7 +60,7 @@ dotnet ef migrations add InitialCreate --namespace Your.Namespace
 ### <a name="visual-studio"></a>[Visual Studio](#tab/vs)
 
 ``` powershell
-Add-Migration InitialCreate -Namespace Your.Namespace
+Add-Migration InitialCreate -OutputDir Your.Namespace
 ```
 
 ***
